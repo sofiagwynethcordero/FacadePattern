@@ -4,7 +4,7 @@ public class Cart implements HotelService
     @Override
     public void execute()
     {
-        System.out.println( numberOfCarts + " carts are requested and will now be delivered. ");
+        System.out.println( numberOfCarts + " carts are requested and will now be delivered.");
     }
 
     public void requestCart(int numberOfCarts)
