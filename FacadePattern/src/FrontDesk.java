@@ -8,7 +8,6 @@ public class FrontDesk
         this.valet = new Valet();
         this.cart = new Cart();
         this.houseKeeping = new HouseKeeping();
-
     }
 
     public void ValetService(String plateNumber)
